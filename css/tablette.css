@@ -1,0 +1,350 @@
+@media screen and (min-width:768px)and (max-width:992px) {
+
+    body{
+        width:auto;
+        margin: auto;
+      }
+
+    /*le Header*/
+    Header {
+        align-items: center;
+    }
+
+    header,
+    main {
+        width: 94%;
+        margin: auto;
+    }
+
+    #logo {
+        justify-content: center;
+        margin: 20px 30px 0px;
+        padding-bottom: 20px;
+    }
+
+    /*La navigation*/
+
+    header nav {
+        height: 69px;
+    }
+
+    nav ul {
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    nav li {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    nav a {
+        margin: 20px 50px 0px;
+        align-items: center;
+    }
+
+    .firts:hover {
+        border-bottom: 3px solid#0065fc;
+        border-top: 0;
+    }
+
+    .second:hover {
+        border-bottom: 3px solid #0065fc;
+        border-top: 0;
+    }
+
+    /*la barre de recherche*/
+    .container {
+        margin: 10px 29px;
+    }
+
+    .container p {
+        margin: 0px 4px;
+    }
+
+    form {
+        display: flex;
+        margin: 20px 30px 20px;
+    }
+
+    /* Le button rechercher Desktop*/
+    form button {
+        padding: 0px 16px;
+    }
+
+    button:hover {
+        color: white;
+        background-color: rgb(244, 87, 171);
+    }
+
+    /*Le mot Recherche qui est sur le button*/
+    .search-form {
+        margin-bottom: 20px;
+        position: static;
+    }
+
+    /* Le bouton loupe pour le mobile*/
+    form button-2 {
+        display: none;
+    }
+
+    /*Les Filtres mobile*/
+    .filter-list {
+        width: 95%;
+        margin: 10px 21px;
+    }
+
+    .filter-title {
+        margin: 10px 10px 10px;
+        /*width: 100%;*/
+    }
+
+    .filter {
+        margin: 8px;
+    }
+
+    /* Info*/
+    .info {
+        margin: 10px 27px;
+    }
+
+    /* Les deux blocs*/
+    .accommodation {
+        flex-direction: column;
+        gap: 38px;
+    }
+
+    /* Le bloc gris*/
+    .city-card {
+        height: 850px;
+        width: 99%;
+        background-color: white;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px 26px 0px;
+    }
+
+    /*Le Titre Hébergement à Marseille*/
+    .city-card h2 {
+        justify-content: space-between;
+        width: 100%;
+        padding: 39px 15px 0px;
+    }
+
+    /*Les Cartes blanches*/
+    .card-image-2 {
+        height: 189px;
+        width: 47%;
+    }
+
+    /* Les Images */
+    .card-image-2 img {
+        height: 100px;
+        width: 100%;
+    }
+
+    /*La Phrase Afficher plus*/
+    .city-card a {
+        width: 100%;
+        padding: 20px 15px 0px;
+    }
+
+    /*Les Plus populaires*/
+    .popular-hotel {
+        flex-direction: column;
+    }
+
+    /* Le Bloc gris*/
+    .city-card2 {
+        height: 615px;
+        width:94% ;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0px 26px 0px;
+    }
+
+    /*Le Titre les plus Populaires*/
+    .city-card2 h2 {
+        display: flex;
+        margin: 0px;
+        padding: 25px 15px 0px;
+        justify-content: space-between;
+    }
+
+    /*Les Cartes blanches*/
+    .description-of-the-hotel {
+        height: 130px;
+        width: 98%;
+    }
+
+    /* Les Images */
+    .description-of-the-hotel img {
+        min-height: 130px;
+        max-height: 130px;
+        min-width: 120px;
+        max-width: 120px;
+        margin-right: 16px;
+        object-fit: cover;
+        border-radius: 16px 0px 0px 19px;
+    }
+
+    .hotel-name-and-the-rating {
+        display: -webkit-box;
+        display: flex;
+        padding: 5px 9px;
+    }
+
+    .detail h3 {
+        padding-right: 0px;
+        margin: 0;
+    }
+
+    .detail p {
+        margin: 10px 7px;
+        padding-bottom: 15px;
+    }
+
+    /* Les Etoiles*/
+    .popular-hotel-rating {
+        color: #0065fc;
+        font-size: 11px;
+        margin-left: 2px;
+    }
+
+    /* Les Activités à Marseille*/
+    .activities {
+        flex-direction: column;
+        height: 800px;
+        width: auto;
+    }
+
+    .card-activity {
+        height:auto;
+        flex-wrap: wrap;
+        width:100%;
+        padding: 0px 26px 0px;
+    }
+
+    /* Le titre Activité à Marseille*/
+    .card-activity h2 {
+        width: 100%;
+        margin: 0px;
+        padding: 60px 15px 0px;
+    }
+
+    /* Les bloc simple*/
+    .bloc-activity {
+        height: 200px;
+        width: 47%;
+        padding-bottom: 0px;
+        order:1;
+    }
+
+    .image-activity {
+        height: 200px;
+        width:100%;
+        order: 3;
+    }
+
+    .image-activity img {
+        height: 150px;
+        width:100%;
+    }
+
+    .bloc-activity-double {
+        height: 300px;
+        width: 47%;
+        order:2;
+    }
+
+    .big-image-activity {
+        height: auto;
+        width: 100%;
+        margin-bottom: 30px;
+        order:4 ;
+    }
+
+    .big-image-activity img {
+        height: 150px;
+        width: 100%;
+    }
+
+    .big-image-activity2 {
+        height: auto;
+        width: 100%;
+        margin-bottom: 30px;
+        order:5;
+    }
+
+    .big-image-activity2 img {
+        height: 150px;
+        width: 100%;
+    }
+
+    .big-image-activity3 {
+        height: auto;
+        width: 100%;
+        margin-bottom: 30px;
+        order: 6;
+    }
+
+    .big-image-activity3 img {
+        height: 150px;
+        width: 100%;
+    }
+
+    .little-image-activity {
+        height: 199px;
+        width: 100%;
+        margin-bottom: 30px;
+        order: 4;
+    }
+
+    .little-image-activity img {
+        height: 150px;
+        width: 100%;
+    }
+
+    /* Le Footer*/
+    .block-footer {
+        display: -webkit-box;
+        display: flex;
+        background-color: #f2f2f2;
+        width: 100%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .sub-block {
+        flex-basis: 30%;
+        margin-left: 3%;
+        font-size: smaller;
+        padding: 16px;
+    }
+
+    .sub-block2 {
+        flex-basis: 25%;
+        margin-left: 3%;
+        justify-content: space-evenly;
+        font-size: smaller;
+        padding: 16px;
+    }
+
+    .sub-block3 {
+        flex-basis: 25%;
+        margin-left: 3%;
+        justify-content: space-evenly;
+        font-size: smaller;
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width:899px) {
+
+    /* les filtres*/
+    filter-list {
+        width: 75%;
+    }
+
+}
