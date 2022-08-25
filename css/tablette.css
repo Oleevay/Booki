@@ -117,11 +117,11 @@
     /* Le bloc gris*/
     .city-card {
         height: 850px;
-        width: 99%;
+        width:99%;
         background-color: white;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0px 26px 0px;
     }
 
@@ -145,11 +145,12 @@
     }
 
     /*La Phrase Afficher plus*/
-    .city-card a {
+    .third {
         width: 100%;
         padding: 20px 15px 0px;
     }
 
+    
     /*Les Plus populaires*/
     .popular-hotel {
         flex-direction: column;
@@ -224,7 +225,7 @@
         height:auto;
         flex-wrap: wrap;
         width:100%;
-        padding: 0px 26px 0px;
+       /* padding: 0px 26px 0px;*/
     }
 
     /* Le titre Activité à Marseille*/

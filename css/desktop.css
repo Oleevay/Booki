@@ -50,7 +50,6 @@ nav ul {
 
 nav li {
     display: flex;
-    margin-right: 14px;
 }
 
 nav a {
@@ -63,10 +62,10 @@ nav a {
 }
 
 .firts .second {
-    display: flex;
     align-items: center;
     font-size: 15px;
     color: black;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -81,7 +80,6 @@ nav a {
 }
 
 /*La barre de recherche*/
-
 .container {
     font-size: 20px;
     margin: 10px 50px 20px;
@@ -115,7 +113,6 @@ form .search-marker {
     background-color: #f2f2f2;
     color: black;
     border-radius: 15px 0px 0px 15px;
-    /*position: static;*/
 }
 
 form input {
@@ -194,6 +191,10 @@ form button-2 {
     padding-right: 18px;
 }
 
+.filter:hover {
+    background-color: #0065fc;
+}
+
 .filter-icon {
     display: flex;
     align-items: center;
@@ -204,18 +205,18 @@ form button-2 {
     color: #0065fc;
     background-color: #DEEBFF;
     border-radius: 30px;
-    transform: scale(1.1);
-    transition: all 9s;
+
+}
+
+.filter-icon:hover {
+    transform: rotate(6.5turn);
+    transition: all 10s;
 }
 
 .filter-label {
-    font-size: 16px;
-    font-weight: bolder;
+    font-size: 17px;
+    font-weight: 900;
     padding-left: 15px;
-}
-
-.filter:hover {
-    background-color: #0065fc;
 }
 
 /* Info*/
@@ -240,6 +241,7 @@ form button-2 {
 
 .info p {
     margin: 10px;
+    font-weight: 300;
 }
 
 /* Les deux bloc*/
@@ -309,9 +311,13 @@ form button-2 {
     margin: 2px;
 }
 
+.card-hotel-name h3:hover {
+    color: #0065fc;
+}
+
 .card-hotel-name p {
     margin: 0px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     margin: 3px;
 }
@@ -333,17 +339,20 @@ form button-2 {
 
 .room-rating:hover {
     cursor: pointer;
-    color: #0065fc;
+    color: #003bfc;
 }
 
 /*La Phrase Afficher plus*/
-.city-card a {
+.third {
     width: 100%;
+    font-size: 19px;
+    font-weight: bolder;
+    padding: 20px 25px 20px;
+}
+
+.city-card a {
     text-decoration: none;
     color: black;
-    font-size: 17px;
-    font-weight: bolder;
-    padding: 20px 15px 20px;
 }
 
 /*Les Plus populaire*/
@@ -372,7 +381,7 @@ form button-2 {
     font-weight: bolder;
     margin: 0px;
     justify-content: space-between;
-    padding: 39px 15px 15px;
+    padding: 39px 5px 15px;
 }
 
 /*L'Etoile qui est à coté du titre*/
@@ -404,6 +413,11 @@ form button-2 {
     object-fit: cover;
 }
 
+.description-of-the-hotel a {
+    text-decoration: none;
+    color: #000;
+}
+
 /* L'Animation*/
 .description-of-the-hotel:hover {
     transform: scale(1.1);
@@ -411,13 +425,11 @@ form button-2 {
 }
 
 .hotel-name-and-rating {
-    /* display: flex;*/
-    align-items: flex-start;
+    display: flex;
     flex-direction: column;
 }
 
 .detail h3 {
-    padding: 7px;
     flex-wrap: wrap;
     font-size: 15px;
     margin: 0px;
@@ -425,12 +437,16 @@ form button-2 {
     align-items: start;
 }
 
+.detail h3:hover {
+    color: #0065fc;
+}
+
 .detail p {
     font-weight: 400;
-    margin: 0px;
-    font-size: 13px;
-    text-align: justify;
-    padding-bottom: 43px;
+    margin:3px 0px 30px;
+    font-size: 14px;
+    /*text-align: justify;*/
+    /*padding-bottom: 26%;*/
 }
 
 .card-price {
@@ -443,12 +459,12 @@ form button-2 {
     color: #0065fc;
     font-size: 11px;
     text-align: initial;
-
 }
 
 .popular-hotel-rating:hover {
+    text-decoration: none;
     cursor: pointer;
-    color: #0065fc;
+    color: #003bfc;
 }
 
 .grey {
@@ -458,7 +474,6 @@ form button-2 {
 /* Les Activités à Marseille*/
 .activities {
     display: flex;
-    /*height: auto;*/
 }
 
 /* Tout le bloc*/
@@ -520,9 +535,9 @@ form button-2 {
 
 .names-activity h3 {
     display: flex;
-    font-size: 14px;
+    font-size: 15px;
     align-items: flex-start;
-    font-weight: bolder;
+    font-weight: 900;
     justify-content: flex-start;
 }
 
@@ -648,7 +663,6 @@ form button-2 {
 }
 
 .sub-block a {
-    display: -webkit-box;
     display: flex;
     color: black;
     align-items: center;
@@ -677,7 +691,6 @@ form button-2 {
 }
 
 .sub-block2 a {
-    display: -webkit-box;
     display: flex;
     color: black;
     align-items: center;
@@ -706,7 +719,6 @@ form button-2 {
 }
 
 .sub-block3 a {
-    display: -webkit-box;
     display: flex;
     color: black;
     align-items: center;
@@ -723,11 +735,6 @@ form button-2 {
 /*Le responsive (les breakpoints)*/
 @media screen and (max-width:1399px) {
 
-    /* Les filtres*/
-    .filter-list-mobile {
-        width: none;
-    }
-
     .filter-list {
         width: 66%;
     }
@@ -742,9 +749,10 @@ form button-2 {
         padding: 0px 20px 0px;
     }
 
-    .city-card2{
-        padding: 0px 20px 0px;   
+    .city-card2 {
+        padding: 0px 20px 0px;
     }
+
     /* Les activités à Marseille*/
     .card-activity {
         gap: 29px;
