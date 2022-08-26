@@ -103,7 +103,6 @@ form {
 
 /* L'icon*/
 form .search-marker {
-    display: -webkit-box;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -277,7 +276,7 @@ form button-2 {
 /*Les Cartes blanches*/
 .card-image-2 {
     height: 189px;
-    width: 28%;
+    width:100%;
     background-color: white;
     padding: 5px;
     border-radius: 20px;
@@ -311,10 +310,6 @@ form button-2 {
     margin: 2px;
 }
 
-.card-hotel-name h3:hover {
-    color: #0065fc;
-}
-
 .card-hotel-name p {
     margin: 0px;
     font-size: 14px;
@@ -335,11 +330,6 @@ form button-2 {
 
 .grey {
     color: #d9d9d9;
-}
-
-.room-rating:hover {
-    cursor: pointer;
-    color: #003bfc;
 }
 
 /*La Phrase Afficher plus*/
@@ -427,26 +417,23 @@ form button-2 {
 .hotel-name-and-rating {
     display: flex;
     flex-direction: column;
+    margin:2px;  
+    justify-content:space-between; 
 }
 
 .detail h3 {
     flex-wrap: wrap;
     font-size: 15px;
     margin: 0px;
-    font-weight: bolder;
-    align-items: start;
-}
-
-.detail h3:hover {
-    color: #0065fc;
+    font-weight: bolder;  
 }
 
 .detail p {
     font-weight: 400;
-    margin:3px 0px 30px;
+    margin:0px;
     font-size: 14px;
-    /*text-align: justify;*/
-    /*padding-bottom: 26%;*/
+    text-align: justify;
+    padding-bottom: 20px;
 }
 
 .card-price {
@@ -458,13 +445,6 @@ form button-2 {
 .popular-hotel-rating {
     color: #0065fc;
     font-size: 11px;
-    text-align: initial;
-}
-
-.popular-hotel-rating:hover {
-    text-decoration: none;
-    cursor: pointer;
-    color: #003bfc;
 }
 
 .grey {
@@ -526,7 +506,6 @@ form button-2 {
 }
 
 .names-activity {
-    display: -webkit-box;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -543,7 +522,6 @@ form button-2 {
 
 /* Les bloc doubles*/
 .bloc-activity-double {
-    display: -webkit-box;
     display: flex;
     height: 480px;
     width: 23%;
