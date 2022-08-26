@@ -208,7 +208,6 @@
    }
 
    .card-activity {
-      display: -webkit-box;
       display: flex;
       flex-wrap: wrap;
       gap: unset;

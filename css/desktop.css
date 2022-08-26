@@ -276,7 +276,7 @@ form button-2 {
 /*Les Cartes blanches*/
 .card-image-2 {
     height: 189px;
-    width:100%;
+    width:28%;
     background-color: white;
     padding: 5px;
     border-radius: 20px;
@@ -403,7 +403,7 @@ form button-2 {
     object-fit: cover;
 }
 
-.description-of-the-hotel a {
+.description-of-the-hotel img, a {
     text-decoration: none;
     color: #000;
 }
@@ -418,16 +418,16 @@ form button-2 {
     display: flex;
     flex-direction: column;
     margin:2px;  
-    justify-content:space-between; 
+    justify-content:space-between;
 }
 
 .detail h3 {
     flex-wrap: wrap;
     font-size: 15px;
-    margin: 0px;
+    margin:0px 0px 5px;
     font-weight: bolder;  
 }
-
+ 
 .detail p {
     font-weight: 400;
     margin:0px;
@@ -530,7 +530,7 @@ form button-2 {
 }
 
 .big-image-activity {
-    height: 52%;
+    height:auto;
     width: auto;
     background-color: white;
     border-radius: 20px;
@@ -597,7 +597,7 @@ form button-2 {
 }
 
 .little-image-activity {
-    height: 42%;
+    height:auto;
     width: auto;
     background-color: white;
     border-radius: 20px;
