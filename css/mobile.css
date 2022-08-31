@@ -1,7 +1,7 @@
 @media screen and (max-width:768px) {
    body {
       width: auto;
-      min-width:360px;
+      min-width: 360px;
       margin: auto;
    }
 
@@ -20,23 +20,23 @@
    /*La navigation*/
 
    header nav {
-   width: 100%;
+      width: 100%;
    }
 
    nav ul {
-     width: 100%;
-     padding: 0px;
+      width: 100%;
+      padding: 0px;
    }
 
    nav li {
-     width:50% ;
-     justify-content: center;
+      width: 50%;
+      justify-content: center;
    }
 
    nav a {
       border-bottom: 3px solid #f2f2f2;
-     width: 100%;
-     justify-content: center;
+      width: 100%;
+      justify-content: center;
    }
 
    .firts:hover {
@@ -49,15 +49,6 @@
       border-top: 0;
    }
 
-   /*la barre de recherche*/
-   .container {
-      margin: 10px 20px 20px;
-   }
-
-   form {
-      margin: 10px 20px 20px;
-   }
-
    /* Le button rechercher Desktop*/
    form button {
       display: none;
@@ -65,11 +56,6 @@
 
    button:hover {
       background-color: unset;
-   }
-
-   /*Le mot Recherche qui est sur le button*/
-   .search-form {
-      margin-bottom: 20px;
    }
 
    /* Le bouton loupe pour le mobile*/
@@ -80,29 +66,24 @@
 
    /*Les Filtres*/
    .filter-list {
-      padding: 0px 20px 0px 15px;
       justify-content: start;
       width: 100%;
-      margin: auto;
+      margin-bottom: 15px;
    }
 
    .filter-title {
-      margin: 10px 10px 10px;
+      margin-bottom: 15px;
       width: 100%;
    }
 
    .filter {
-      margin: 7px;
-   }
-
-   .filter:hover {
-      background-color: unset;
+      margin: 0px 19px 12px 0px;
    }
 
    /* Info*/
    .info {
-      align-items: baseline;
-      margin: 10px 20px 20px;
+      /*align-items: baseline;*/
+      margin-bottom: 30px;
    }
 
    .info p {
@@ -141,7 +122,6 @@
    .description-of-the-hotel {
       height: 130px;
       width: 100%;
-      transition: none;
    }
 
    /* Les Images */
@@ -153,15 +133,6 @@
       margin-right: 16px;
       border-radius: 16px 0px 0px 19px;
       object-fit: cover;
-   }
-
-   .description-of-the-hotel:hover {
-      transform: none;
-   }
-
-   .detail p {
-      line-height: 0%;
-      margin-bottom: 30px;
    }
 
    /* Hébergements à Marseille*/
@@ -187,17 +158,20 @@
       width: 100%;
    }
 
-   /*L'animation de l'image*/
-   .card-image-2:hover {
-      transform: none;
+   .card-hotel-name h3 {
+      padding: 1% 3% 0%;
    }
 
    .card-hotel-name p {
-      padding-bottom: 5px;
+      padding: 1% 3% 1%;
+   }
+
+   .room-rating {
+      padding: 1% 3% 4%;
    }
 
    /*La Phrase Afficher plus*/
-   .third  {
+   .third {
       padding: 20px 19px 30px;
    }
 
@@ -315,16 +289,3 @@
       padding: 20px 19px 0px;
    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
