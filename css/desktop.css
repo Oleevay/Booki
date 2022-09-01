@@ -153,7 +153,7 @@ form button {
 
 button:hover {
     color: white;
-    background-color: #0065fc;
+    background-color: #0692ea;
 }
 
 /* Le bouton loupe pour le mobile*/
@@ -759,11 +759,16 @@ a {
 }
 
 /*Le responsive (les breakpoints)*/
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1365px) {
 
     .filter-list {
-        width: 75%;
+        width: auto;
+       justify-content:unset;
     }
+
+    .filter {
+        margin:0px 2px 12px 19px;
+     }
 
     /* les deux bloc*/
     .accommodation {
@@ -785,14 +790,12 @@ a {
     }
 }
 
-@media screen and (max-width:1238px) {
+@media screen and (max-width:1288px) {
 
     /*Les filtres*/
     .filter-list {
-        width: 85%;
+        margin-bottom: 30px;
     }
-
-
 }
 
 @media screen and (min-width:1441px) {

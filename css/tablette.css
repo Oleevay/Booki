@@ -76,7 +76,7 @@
 
     button:hover {
         color: white;
-        background-color: #0065fca7;
+        background-color: #0692ea
     }
 
     /*Le mot Recherche qui est sur le button*/
@@ -91,7 +91,14 @@
 
     /*Les Filtres */
     .filter-list {
-        width: 95%;
+        width: 100%;
+        justify-content: start;
+        margin-bottom: 30px;
+    }
+
+    .filter-title {
+        margin-bottom: 15px;
+        width: 100%;
     }
 
     .filter {
@@ -191,6 +198,9 @@
         margin-right: 16px;
         object-fit: cover;
         border-radius: 16px 0px 0px 19px;
+    }
+    .description-of-the-hotel img, a{
+       width:100%; 
     }
 
     /* Les Activités à Marseille*/

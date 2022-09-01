@@ -37,6 +37,7 @@
       border-bottom: 3px solid #f2f2f2;
       width: 100%;
       justify-content: center;
+      margin: 0px;
    }
 
    .firts:hover {
@@ -62,6 +63,11 @@
    form button-2 {
       display: flex;
       margin-left: -15px;
+   }
+
+   button-2:hover {
+      background-color: #0692ea;
+
    }
 
    /*Les Filtres*/
@@ -149,7 +155,6 @@
    .card-image-2 {
       height: 183px;
       width: 98%;
-      transition: none;
    }
 
    /* Les images */
