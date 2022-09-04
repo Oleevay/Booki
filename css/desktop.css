@@ -16,7 +16,6 @@ p h2 h3 {
     margin: 0;
 }
 
-/* Le Header*/
 header {
     display: flex;
     justify-content: space-between;
@@ -36,7 +35,6 @@ main {
     padding-left: 2%;
 }
 
-/*  La Navigation*/
 header nav {
     height: 110px;
 }
@@ -79,12 +77,13 @@ nav a {
     border-top: 3px solid #0065fc;
 }
 
+/*La zone de recherche*/
 .search-zone {
     width: auto;
     padding: 0px 5px 0px;
 }
 
-/*La barre de recherche*/
+
 .container {
     font-size: 20px;
     margin-bottom: 35px;
@@ -125,7 +124,7 @@ form input {
     padding: 14px;
 }
 
-/* la phrase de recherche Marseille, France*/
+/*  Marseille, France*/
 form input::placeholder {
     color: #000;
     font-size: 17px;
@@ -134,7 +133,6 @@ form input::placeholder {
     margin-right: 0px;
 }
 
-/* Le bouton rechercher Desktop*/
 form button {
     background-color: #0065fc;
     color: white;
@@ -146,7 +144,7 @@ form button {
     cursor: pointer;
 }
 
-/*Le mot Recherche qui est sur le button*/
+/*Recherche */
 .search-form {
     margin-bottom: 30px;
 }
@@ -156,7 +154,6 @@ button:hover {
     background-color: #0692ea;
 }
 
-/* Le bouton loupe pour le mobile*/
 form button-2 {
     display: none;
     background-color: #0065fc;
@@ -169,7 +166,6 @@ form button-2 {
     transform: scale(1.1);
 }
 
-/*Les Filtres*/
 .filter-list {
     display: flex;
     align-items: center;
@@ -221,7 +217,6 @@ form button-2 {
     padding-left: 15px;
 }
 
-/* Info*/
 .info {
     display: flex;
     align-items: center;
@@ -256,7 +251,6 @@ form button-2 {
 }
 
 /* Hébergement à Marseille*/
-/* Le Bloc gris*/
 .city-card {
     display: flex;
     flex-wrap: wrap;
@@ -268,7 +262,6 @@ form button-2 {
     border-radius: 19px;
 }
 
-/*Le Titre Hébergement à Marseille*/
 .city-card h2 {
     width: 99%;
     font-size: 20px;
@@ -287,7 +280,6 @@ form button-2 {
     transition: all 1.1s;
 }
 
-/* Les Images */
 .card-image-2 img {
     height: 108px;
     width: 100%;
@@ -295,7 +287,6 @@ form button-2 {
     border-radius: 15px 15px 0px 0px;
 }
 
-/*L'Animation de l'image*/
 .card-image-2 a {
     text-decoration: none;
     color: #000;
@@ -317,7 +308,7 @@ form button-2 {
     font-size: 15px;
     font-weight: bolder;
     margin: 0px;
-    padding: 1% 3% 2%
+    padding: 1% 3% 2%;
 }
 
 .card-hotel-name h3:hover {
@@ -337,7 +328,6 @@ form button-2 {
     font-weight: bolder;
 }
 
-/*Les Etoiles*/
 .room-rating {
     font-size: 11px;
     color: #0065fc;
@@ -348,7 +338,6 @@ form button-2 {
     color: #d9d9d9;
 }
 
-/*La Phrase Afficher plus*/
 .third {
     width: 100%;
     font-size: 19px;
@@ -379,7 +368,6 @@ form button-2 {
     border-radius: 19px;
 }
 
-/*Le Titre les plus Populaires*/
 .city-card2 h2 {
     display: flex;
     width: 99%;
@@ -390,7 +378,6 @@ form button-2 {
     padding: 39px 5px 15px;
 }
 
-/*L'Etoile qui est à coté du titre*/
 .popular-hotel .i.fa-solid fa-star {
     margin-left: 60%;
 }
@@ -408,7 +395,6 @@ form button-2 {
     margin-bottom: 30px;
 }
 
-/* Les Images */
 .description-of-the-hotel img {
     min-height: 130px;
     max-height: 130px;
@@ -419,7 +405,6 @@ form button-2 {
     object-fit: cover;
 }
 
-/* L'Animation*/
 .description-of-the-hotel img,
 a {
     text-decoration: none;
@@ -463,7 +448,6 @@ a {
     font-size: 14px;
 }
 
-/* Les Etoiles*/
 .popular-hotel-rating {
     color: #0065fc;
     font-size: 11px;
@@ -489,7 +473,6 @@ a {
     gap: 40px;
 }
 
-/* Le titre Activité à Marseille*/
 .card-activity h2 {
     width: 100%;
     font-size: 20px;
@@ -498,7 +481,6 @@ a {
     padding: 60px 15px 20px;
 }
 
-/* les bloc simple*/
 .bloc-activity {
     display: flex;
     height: 448px;
@@ -552,7 +534,6 @@ a {
     color: #0065fc;
 }
 
-/* Les bloc doubles*/
 .bloc-activity-double {
     display: flex;
     height: 448px;
@@ -666,7 +647,6 @@ a {
     border-radius: 20px 20px 0px 0px;
 }
 
-/* Le Footer*/
 .block-footer {
     display: flex;
     background-color: #f2f2f2;
@@ -763,14 +743,13 @@ a {
 
     .filter-list {
         width: auto;
-       justify-content:unset;
+        justify-content: unset;
     }
 
     .filter {
-        margin:0px 2px 12px 19px;
-     }
+        margin: 0px 2px 12px 19px;
+    }
 
-    /* les deux bloc*/
     .accommodation {
         gap: 25px;
     }
@@ -780,6 +759,7 @@ a {
         padding: 0px 20px 0px;
     }
 
+    /* les plus populaires*/
     .city-card2 {
         padding: 0px 20px 0px;
     }
@@ -792,7 +772,6 @@ a {
 
 @media screen and (max-width:1288px) {
 
-    /*Les filtres*/
     .filter-list {
         margin-bottom: 30px;
     }
@@ -800,7 +779,6 @@ a {
 
 @media screen and (min-width:1441px) {
 
-    /* les deux block*/
     .accommodation {
         gap: 50px;
     }

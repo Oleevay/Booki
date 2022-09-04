@@ -5,7 +5,6 @@
         margin: auto;
     }
 
-    /*le Header*/
     Header {
         align-items: center;
     }
@@ -21,8 +20,6 @@
         margin: 20px 30px 0px;
         padding-bottom: 20px;
     }
-
-    /*La navigation*/
 
     header nav {
         height: 69px;
@@ -53,12 +50,10 @@
         border-top: 0;
     }
 
-
+    /*La zone de recherche*/
     .search-zone {
         padding: 0px 5px 0px;
     }
-
-    /*la barre de recherche*/
 
     .container p {
         margin-bottom: 20px;
@@ -69,7 +64,6 @@
         margin: 20px 30px 20px;
     }
 
-    /* Le button rechercher Desktop*/
     form button {
         padding: 0px 16px;
     }
@@ -79,17 +73,16 @@
         background-color: #0692ea
     }
 
-    /*Le mot Recherche qui est sur le button*/
+    /* Recherche*/
     .search-form {
         margin: 10px 0px 30px;
     }
 
-    /* Le bouton loupe pour le mobile*/
+
     form button-2 {
         display: none;
     }
 
-    /*Les Filtres */
     .filter-list {
         width: 100%;
         justify-content: start;
@@ -109,13 +102,11 @@
         margin-bottom: auto;
     }
 
-    /* Les deux blocs*/
     .accommodation {
         flex-direction: column;
         gap: 38px;
     }
 
-    /* Le bloc gris*/
     .city-card {
         height: 850px;
         width: 99%;
@@ -126,7 +117,6 @@
         padding: 0px 26px 0px;
     }
 
-    /*Le Titre Hébergement à Marseille*/
     .city-card h2 {
         justify-content: space-between;
         width: 100%;
@@ -139,7 +129,6 @@
         width: 45%;
     }
 
-    /* Les Images */
     .card-image-2 img {
         height: 100px;
         width: 100%;
@@ -154,7 +143,6 @@
         padding: 1% 3% 3%;
     }
 
-    /*La Phrase Afficher plus*/
     .third {
         width: 100%;
         padding: 20px 15px 0px;
@@ -175,7 +163,6 @@
         padding: 0px 26px 0px;
     }
 
-    /*Le Titre les plus Populaires*/
     .city-card2 h2 {
         display: flex;
         margin: 0px;
@@ -189,7 +176,6 @@
         width: 100%;
     }
 
-    /* Les Images */
     .description-of-the-hotel img {
         min-height: 130px;
         max-height: 130px;
@@ -199,8 +185,10 @@
         object-fit: cover;
         border-radius: 16px 0px 0px 19px;
     }
-    .description-of-the-hotel img, a{
-       width:100%; 
+
+    .description-of-the-hotel img,
+    a {
+        width: 100%;
     }
 
     /* Les Activités à Marseille*/
@@ -216,14 +204,12 @@
         width: 100%;
     }
 
-    /* Le titre Activité à Marseille*/
     .card-activity h2 {
         width: 100%;
         margin: 0px;
         padding: 60px 15px 0px;
     }
 
-    /* Les bloc simple*/
     .bloc-activity {
         height: 200px;
         width: 47%;
@@ -296,9 +282,7 @@
         width: 100%;
     }
 
-    /* Le Footer*/
     .block-footer {
-        display: -webkit-box;
         display: flex;
         background-color: #f2f2f2;
         width: 100%;
