@@ -6,14 +6,18 @@
    }
 
    header {
+      width: 100%;
       flex-direction: column;
+      margin-bottom: 20px;
+   }
+
+   main {
+      width: auto;
    }
 
    #logo {
-      width: unset;
-      justify-content: center;
-      margin: 20px 50px 0 50px;
-      padding-bottom: 20px;
+      margin-top: 20px;
+      margin-left: 40px;
    }
 
    header nav {
@@ -28,23 +32,20 @@
    nav li {
       width: 50%;
       justify-content: center;
+      height: 54px;
    }
 
    nav a {
-      border-bottom: 3px solid #f2f2f2;
-      width: 100%;
       justify-content: center;
-      margin: 0px;
    }
 
-   .firts:hover {
-      border-bottom: 3px solid#0065fc;
-      border-top: 0;
+   .search-zone {
+      padding: 0px 20px 0px;
    }
 
-   .second:hover {
-      border-bottom-color: #0065fc;
-      border-top: 0;
+   .container {
+      width: 90%;
+      font-size: 21px;
    }
 
    form button {
@@ -65,8 +66,6 @@
    }
 
    .filter-list {
-      justify-content: start;
-      width: 100%;
       margin-bottom: 15px;
    }
 
@@ -75,56 +74,35 @@
       width: 100%;
    }
 
-   .filter {
-      margin: 0px 19px 12px 0px;
-   }
-
    .info {
-      margin-bottom: 30px;
+      align-items: flex-start;
    }
 
    .info p {
-      margin: 7px;
+      margin: 3px 0px 0px 10px;
+      font-size: 15px;
    }
 
    .accommodation {
       flex-direction: column-reverse;
-      width: 100%;
       gap: 20px;
    }
 
-   .popular-hotel {
-      flex-basis: 0;
-      width: 100%;
-      order: 1;
-   }
-
    /* Le bloc gris*/
-   .city-card2 {
-      flex-direction: column;
-      width: 92%;
-      border-radius: 0;
+   .popular-hotel {
+      width: auto;
+      height: 555px;
+      border-radius: 0px;
+      padding: 37px 18px 13px;
    }
 
-   .city-card2 h2 {
-      width: auto;
-      padding: 25px 15px 0px;
-      margin: 0px;
+   .popular-hotel h2 {
+      margin : 0 ;
    }
 
    .description-of-the-hotel {
-      height: 130px;
-      width: 100%;
-   }
-
-   .description-of-the-hotel img {
-      min-height: 130px;
-      max-height: 130px;
-      min-width: 120px;
-      max-width: 120px;
-      margin-right: 16px;
-      border-radius: 16px 0px 0px 19px;
-      object-fit: cover;
+      margin-bottom: 0px;
+      width:93% ;
    }
 
    /* Hébergements à Marseille*/
@@ -133,143 +111,69 @@
       background-color: white;
       flex-wrap: nowrap;
       flex-direction: column;
+      width:93%;
       gap: 14px;
+      padding: 0px 19px;
+      margin-bottom: 0px;
+   }
+
+   .city-card h2 {
+     padding: 30px 0px 9px;
    }
 
    /*Les cartes blanches*/
    .card-image-2 {
-      height: 183px;
-      width: 98%;
+      height: 179px;
+      width:95%;
    }
 
    .card-image-2 img {
       height: 100px;
-      width: 100%;
-   }
-
-   .card-hotel-name h3 {
-      padding: 1% 3% 0%;
-   }
-
-   .card-hotel-name p {
-      padding: 1% 3% 1%;
-   }
-
-   .room-rating {
-      padding: 1% 3% 4%;
    }
 
    .third {
-      padding: 20px 19px 30px;
+      padding: 20px 10px 20px;
    }
 
    /* Les Activités à Marseille*/
    .activities {
       flex-direction: column;
-      height: auto;
    }
 
    .card-activity {
-      display: flex;
-      flex-wrap: wrap;
-      gap: unset;
-      padding: 0px 0px 0px;
+      padding: 0px 19px 0px;
+      width:93%;
    }
 
    .card-activity h2 {
-      margin: 20px 0px 25px;
+      padding:0px 0px 5px;
    }
 
-   .bloc-activity {
-      height: 100%;
-      width: 100%;
-      padding: 0px 5px 25px;
+   .bloc-activity{
+      height: auto;
+      width: 95%;
    }
 
-   /*les cartes blanches*/
-   .image-activity {
-      height: 200px;
-      width: 100%;
-   }
-
-   .image-activity img {
+   .bloc-activity img {
       height: 145px;
-      width: 100%;
    }
 
    .bloc-activity-double {
-      height: 100%;
-      width: 100%;
-      padding: 0px 5px 0px;
+      height: auto;
+      width: 95%;
    }
 
-   /*Les cartes blanches*/
-   .big-image-activity {
-      height: 195px;
-      width: 100%;
-      margin-bottom: 19px;
+   footer{
+      padding:0px
    }
-
-   .big-image-activity img {
-      height: 145px;
-   }
-
-   .big-image-activity2 {
-      height: 195px;
-      width: 100%;
-      margin-bottom: 22px;
-   }
-
-   .big-image-activity2 img {
-      height: 145px;
-      width: 100%;
-   }
-
-   .big-image-activity3 {
-      height: 195px;
-      width: 100%;
-      margin-bottom: 30px;
-   }
-
-   .big-image-activity3 img {
-      height: 145px;
-      width: 100%;
-   }
-
-   .little-image-activity {
-      height: 195px;
-      width: 100%;
-      margin-top: 3px;
-      margin-bottom: 25px;
-   }
-
-   .little-image-activity img {
-      height: 145px;
-      width: 100%;
-      border-radius: 15px 15px 0px 0px;
-   }
-
+      
    .block-footer {
       flex-direction: column;
-      width: 100%;
-      margin-top: 29px;
    }
 
    .sub-block {
-      flex-basis: 0%;
-      justify-content: space-around;
+      justify-content: space-between;
       padding: 30px 19px 0px;
    }
 
-   .sub-block2 {
-      flex-basis: 0%;
-      margin-left: 3%;
-      padding: 20px 19px 0px;
-   }
-
-   .sub-block3 {
-      flex-basis: 0%;
-      margin-left: 3%;
-      padding: 20px 19px 0px;
-   }
 }
