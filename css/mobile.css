@@ -8,11 +8,11 @@
    header {
       width: 100%;
       flex-direction: column;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
    }
 
    main {
-      width: auto;
+      width:100%;
    }
 
    #logo {
@@ -33,6 +33,7 @@
       width: 50%;
       justify-content: center;
       height: 54px;
+      border-bottom: 3px solid #f2f2f2;
    }
 
    nav a {
@@ -67,6 +68,7 @@
 
    .filter-list {
       margin-bottom: 15px;
+      
    }
 
    .filter-title {
@@ -79,7 +81,7 @@
    }
 
    .info p {
-      margin: 3px 0px 0px 10px;
+      margin: 3px 0px 20px 10px;
       font-size: 15px;
    }
 
@@ -90,19 +92,15 @@
 
    /* Le bloc gris*/
    .popular-hotel {
-      width: auto;
-      height: 555px;
+      width: 95%;
+      height: 506px;
       border-radius: 0px;
-      padding: 37px 18px 13px;
-   }
-
-   .popular-hotel h2 {
-      margin : 0 ;
+      padding: 37px 18px 26px;
    }
 
    .description-of-the-hotel {
-      margin-bottom: 0px;
-      width:93% ;
+      margin-bottom:0px;
+      width: 97%;
    }
 
    /* Hébergements à Marseille*/
@@ -111,26 +109,26 @@
       background-color: white;
       flex-wrap: nowrap;
       flex-direction: column;
-      width:93%;
+      width: 93%;
       gap: 14px;
       padding: 0px 19px;
       margin-bottom: 0px;
    }
 
    .city-card h2 {
-     padding: 30px 0px 9px;
+      padding: 30px 0px 9px;
    }
 
    /*Les cartes blanches*/
    .card-image-2 {
       height: 179px;
-      width:95%;
+      width: 95%;
    }
 
    .card-image-2 img {
       height: 100px;
    }
-
+ 
    .third {
       padding: 20px 10px 20px;
    }
@@ -142,14 +140,14 @@
 
    .card-activity {
       padding: 0px 19px 0px;
-      width:93%;
+      width: 93%;
    }
 
    .card-activity h2 {
-      padding:0px 0px 5px;
+      padding: 0px 0px 5px;
    }
 
-   .bloc-activity{
+   .bloc-activity {
       height: auto;
       width: 95%;
    }
@@ -163,17 +161,18 @@
       width: 95%;
    }
 
-   footer{
-      padding:0px
+   footer {
+      padding: 0px
    }
-      
+
    .block-footer {
       flex-direction: column;
+      margin-left:8%;
    }
 
    .sub-block {
       justify-content: space-between;
-      padding: 30px 19px 0px;
+      padding: 20px 5px 0px;
    }
 
 }
