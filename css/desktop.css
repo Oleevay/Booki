@@ -146,7 +146,7 @@ form button {
 
 button:hover {
     color: white;
-    background-color: #0692ea;
+    background-color: rgb(0, 174, 255);
 }
 
 form button-2 {
@@ -205,9 +205,10 @@ form button-2 {
     transform: scale(1.1);
 }
 
-.filter-icon:hover {
-    transform: rotate(6.5turn);
-    transition: all 10s;
+.rot-degrees:hover {
+    transform: rotate(360deg);
+    transition: all 800ms;
+    color: rgb(0, 174, 255);
 }
 
 .filter-label {
@@ -353,7 +354,7 @@ form button-2 {
     flex-direction: column;
     flex-wrap: wrap;
     height: 575px;
-    padding: 37px 0% 10px 3%;
+    padding: 37px 0% 0px 3%;
     background-color: #f2f2f2;
     justify-content: space-between;
     border-radius: 19px;
@@ -365,18 +366,18 @@ form button-2 {
     width: 90%;
     font-size: 20px;
     font-weight: bolder;
-    margin: 5px 0px 18px;
+    margin: 5px 0px;
     justify-content: space-between;
 }
 
 /*Les Cartes blanches*/
-.description-of-the-hotel{
+.description-of-the-hotel {
     display: flex;
     height: 130px;
     width: 88%;
     background-color: white;
     border-radius: 22px;
-    padding: 5px ;
+    padding: 5px;
     box-shadow: 0px 0px 16px #0000002e;
     transition: all 1.1s;
     margin-bottom: 25px;
@@ -515,7 +516,7 @@ footer {
 .block-footer {
     display: flex;
     justify-content: space-between;
-    margin-left:4%;
+    margin-left: 4%;
     padding: 37px 0 0 0;
 }
 

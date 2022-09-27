@@ -8,11 +8,11 @@
    header {
       width: 100%;
       flex-direction: column;
-      margin-bottom: 30px;
+      margin-bottom:25px;
    }
 
    main {
-      width:100%;
+      width: 100%;
    }
 
    #logo {
@@ -68,12 +68,10 @@
 
    .filter-list {
       margin-bottom: 15px;
-      
    }
 
-   .filter-title {
-      margin-bottom: 15px;
-      width: 100%;
+   .filter {
+      flex-wrap: nowrap;
    }
 
    .info {
@@ -92,43 +90,32 @@
 
    /* Le bloc gris*/
    .popular-hotel {
-      width: 95%;
-      height: 506px;
-      border-radius: 0px;
-      padding: 37px 18px 26px;
-   }
-
-   .description-of-the-hotel {
-      margin-bottom:0px;
-      width: 97%;
+      width:95%;
+      height: 505px;
+      /*padding: 37px 0% 28px 3%;*/
    }
 
    /* Hébergements à Marseille*/
    .city-card {
       height: auto;
-      background-color: white;
       flex-wrap: nowrap;
       flex-direction: column;
-      width: 93%;
+      width: 94%;
       gap: 14px;
-      padding: 0px 19px;
+      padding: 0px 18px;
       margin-bottom: 0px;
    }
 
    .city-card h2 {
-      padding: 30px 0px 9px;
+      padding: 15px 0px 9px;
    }
 
    /*Les cartes blanches*/
    .card-image-2 {
       height: 179px;
-      width: 95%;
+      width: 97%;
    }
 
-   .card-image-2 img {
-      height: 100px;
-   }
- 
    .third {
       padding: 20px 10px 20px;
    }
@@ -136,38 +123,25 @@
    /* Les Activités à Marseille*/
    .activities {
       flex-direction: column;
-   }
-
-   .card-activity {
-      padding: 0px 19px 0px;
-      width: 93%;
+      padding: 0px 18px;
    }
 
    .card-activity h2 {
       padding: 0px 0px 5px;
    }
 
-   .bloc-activity {
-      height: auto;
-      width: 95%;
-   }
-
    .bloc-activity img {
       height: 145px;
    }
 
-   .bloc-activity-double {
-      height: auto;
-      width: 95%;
-   }
-
+   /*footer */
    footer {
-      padding: 0px
+      padding: 0px;
    }
 
    .block-footer {
       flex-direction: column;
-      margin-left:8%;
+      margin-left: 8%;
    }
 
    .sub-block {
