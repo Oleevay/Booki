@@ -1,18 +1,18 @@
 @media screen and (max-width:768px) {
    body {
       width: auto;
-      min-width: 360px;
       margin: auto;
+      overflow: hidden visible;
    }
 
    header {
       width: 100%;
       flex-direction: column;
-      margin-bottom:25px;
+      margin-bottom: 25px;
    }
 
    main {
-      width: 100%;
+      width: auto;
    }
 
    #logo {
@@ -30,9 +30,9 @@
    }
 
    nav li {
+      height: 54px;
       width: 50%;
       justify-content: center;
-      height: 54px;
       border-bottom: 3px solid #f2f2f2;
    }
 
@@ -70,8 +70,9 @@
       margin-bottom: 15px;
    }
 
-   .filter {
-      flex-wrap: nowrap;
+   .filter-title {
+      margin-bottom: 15px;
+      width: 100%;
    }
 
    .info {
@@ -85,49 +86,83 @@
 
    .accommodation {
       flex-direction: column-reverse;
-      gap: 20px;
+      gap: 19px;
    }
 
    /* Le bloc gris*/
    .popular-hotel {
-      width:95%;
-      height: 505px;
-      /*padding: 37px 0% 28px 3%;*/
+      height: 500px;
+      width: 98%;
+      padding: 37px 0% 30px;
+      background-color: #f2f2f2;
+   }
+
+   .popular-hotel a {
+      width: 90%;
+   }
+
+   .popular-hotel h2 {
+      width: 90%;
+      margin-bottom: 15px;
+   }
+
+   .description-of-the-hotel {
+      transition: none;
+   }
+
+   .description-of-the-hotel:hover {
+      transform: none;
    }
 
    /* Hébergements à Marseille*/
    .city-card {
       height: auto;
+      width: 98%;
       flex-wrap: nowrap;
       flex-direction: column;
-      width: 94%;
+      padding: 20px 0% 0px;
       gap: 14px;
-      padding: 0px 18px;
-      margin-bottom: 0px;
+      align-items: center;
    }
 
    .city-card h2 {
-      padding: 15px 0px 9px;
+      width: 92%;
+      margin-bottom: 10px;
    }
 
    /*Les cartes blanches*/
    .card-image-2 {
-      height: 179px;
-      width: 97%;
+      height: 192px;
+      width: 90%;
+      transition: none;
+   }
+
+   .card-image-2 img {
+      height: 118px;
+   }
+
+   .card-image-2:hover {
+      transform: none;
    }
 
    .third {
-      padding: 20px 10px 20px;
+      width: 92%;
    }
 
    /* Les Activités à Marseille*/
    .activities {
       flex-direction: column;
-      padding: 0px 18px;
+      margin-bottom: 25px;
+      width: 98%;
+      align-items: center;
+   }
+
+   .card-activity {
+      width: 90%;
    }
 
    .card-activity h2 {
-      padding: 0px 0px 5px;
+      width: 90%;
    }
 
    .bloc-activity img {
@@ -141,7 +176,7 @@
 
    .block-footer {
       flex-direction: column;
-      margin-left: 8%;
+      margin-left: 6%;
    }
 
    .sub-block {

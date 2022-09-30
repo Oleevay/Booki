@@ -6,7 +6,7 @@
 
     main {
         margin: auto;
-        width: 94%;
+        width: 93%;
     }
 
     nav li {
@@ -34,7 +34,7 @@
     }
 
     .filter-title {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         width: 100%;
     }
 
@@ -48,7 +48,6 @@
 
     .accommodation {
         flex-direction: column;
-        width: 100%; 
     }
 
     .city-card {
@@ -56,8 +55,6 @@
         height: 790px;
         flex-direction: row;
         background-color: white;
-        padding: 15px 18px 0px;
-        margin-bottom: 20px;
     }
 
     /*Les Cartes blanches*/
@@ -67,26 +64,20 @@
 
     /*Les Plus populaires*/
     .popular-hotel {
-        width: 99%;
+        width: 100%;
         border-radius: 0px;
         justify-content: center;
-        flex-direction: row;  
+        flex-direction: row;
+        background-color: white;
     }
 
     .popular-hotel h2 {
-        width: 95%;
-        margin: 0px ;
+        width: 100%;
     }
 
     /*Les Cartes blanches*/
-    .description-of-the-hotel img,
-    a {
-       width: 100%;
-    }
-
-    .description-of-the-hotel {
-        margin-bottom: 0px;
-        width:95%;
+    .popular-hotel a {
+        width: 100%;
     }
 
     /* Les Activités à Marseille*/
@@ -96,16 +87,16 @@
 
     .bloc-activity,
     .bloc-double-activity {
-        width:100%;
+        width: 100%;
     }
 
     .bloc-activity img {
         height: 150px;
     }
 
+    /* les cartes blanches*/
     .container-activity {
         margin-bottom: 20px;
-        width: 96%;
     }
 
     /*footer */
@@ -117,6 +108,6 @@
     .sub-block2,
     sub-block3 {
         flex-basis: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 }
