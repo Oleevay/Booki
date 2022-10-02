@@ -57,7 +57,6 @@ nav li {
 }
 
 nav li:hover {
-    color: #0065fc;
     border-top: 3px solid #0065fc;
     margin-top: 0px;
 }
@@ -71,6 +70,10 @@ nav a {
 .links {
     font-size: 15px;
     font-weight: 500;
+}
+
+.links:hover{
+    color: #0065fc;
 }
 
 /*La zone de recherche*/
